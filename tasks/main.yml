@@ -20,7 +20,7 @@
 - name: Template inventory file
   template:
     src: inventory.j2
-    dest: "{{ awx_repo_dir }}/installer/install.yml"
+    dest: "{{ awx_repo_dir }}/installer/inventory"
 
 - include: awx-install-playbook.yml
   when: awx_run_install_playbook
