@@ -1,0 +1,3 @@
+awx_secret: CHANGEME!
+awx_admin_user: admin
+awx_admin_password: password

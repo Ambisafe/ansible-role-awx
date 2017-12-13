@@ -17,5 +17,10 @@
     force: yes
     accept_hostkey: yes
 
+- name: Template inventory file
+  template:
+    src: inventory.j2
+    dest: "{{ awx_repo_dir }}/installer/install.yml"
+
 - include: awx-install-playbook.yml
   when: awx_run_install_playbook
