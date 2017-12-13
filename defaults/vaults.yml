@@ -1,3 +1,7 @@
 awx_secret: CHANGEME!
 awx_admin_user: admin
 awx_admin_password: password
+
+docker_registry: docker.io
+docker_registry_username: ansible
+docker_registry_password: password

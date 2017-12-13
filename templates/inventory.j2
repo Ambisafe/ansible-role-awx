@@ -35,9 +35,9 @@ host_port=80
 # Required for Standalone Docker Install if building the image on your own
 # Optional for Standalone Docker Install if using Dockerhub or another prebuilt registry
 # Define if you want the image pushed to a registry. The container definition will also use these images
-# docker_registry=172.30.1.1:5000
-# docker_registry_repository=awx
-# docker_registry_username=developer
+docker_registry={{ docker_registry }}
+docker_registry_username={{ docker_registry_username }}
+docker_registry_password={{ docker_registry_password }}
 
 
 # Docker_image will not attempt to push to remote if the image already exists locally
