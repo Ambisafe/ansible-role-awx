@@ -6,4 +6,8 @@ awx_version: devel
 awx_keep_updated: yes
 awx_host_port: 80
 awx_run_install_playbook: yes
+
 postgres_data_dir: /var/data/awx
+pg_username: pg_username
+pg_password: pg_password
+pg_database: pg_database
